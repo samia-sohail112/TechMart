@@ -1,0 +1,188 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #eef2ff;
+      color: #333;
+    }
+    header {
+     background: linear-gradient(rgba(10, 46, 109, 0.5), rgba(10, 46, 109, 0.5)),
+                  url('backimage.png') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+      border-bottom: 4px solid #0a2e6d;
+    }
+    header h1 {
+      font-size: 2.4rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 5px;
+    }
+    nav {
+      background-color: #07265e;
+      text-align: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    /* Products Section */
+    .products {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .products h2 {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+      color: #1a237e;
+    }
+    .product-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 45px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #1a237e;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 5px 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #1a73e8;
+    }
+    .card button {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    .card button:hover {
+      background-color: #155ab6;
+    }
+    /* About Section */
+    .about {
+      background-color: #eef2ff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .about h2 {
+      color: #1a237e;
+    }
+    .about p {
+      max-width: 700px;
+      margin: 10px auto;
+      line-height: 1.6;
+      padding: 15px;
+    }
+    /* Features Section */
+    .features {
+      background-color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 30px 60px;
+    }
+    .features h2 {
+      color: #1a237e;
+      margin-bottom: 10px;
+    }
+    .features p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #444;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    /* Contact Section */
+    .contact {
+      background-color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contact h2 {
+      color: #1a237e;
+      margin-bottom: 20px;
+    }
+    .contact-info p {
+      background-color: #eef2ff;
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      color: #1a237e;
+      margin-bottom: 20px;
+    }
+    .contact form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 30px;
+      border-radius: 10px;
+border: 2px solid lightgrey;
+width:50%;
+    }
+    label{
+      font-weight: bold;
+      color: black;
+      text-align: left;
+    }
+    .contact input, .contact select, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact button {
+      background-color: rgb(9, 9, 46);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background-color: #155ab6
+    }
+    footer{
+      background-color: #07265e;
+      color: white;
+      text-align : center;
+      padding : 12px 0;
+      margin-top : 20px;
+    }
