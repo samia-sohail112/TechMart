@@ -1,0 +1,21 @@
+ TechMart - Responsive E-Commerce Landing Page
+
+A clean, responsive landing page for an e-commerce platform called TechMart, built using HTML5 and CSS3. 
+
+ Live Demo
+[Paste your GitHub Pages link here]
+
+ Technologies Used
+* **HTML5:** Used for semantic structure and content organization.
+* **CSS3:** Used for styling, layout design (Flexbox/Grid), and responsive mobile-first optimization.
+
+Project Features
+* **Responsive Design:** The layout adjusts seamlessly across mobile, tablet, and desktop screens.
+* **Modern UI:** Features a professional hero section and a clean product showcase grid.
+* **Interactive Navigation:** Includes a functional navigation bar for smooth user experience.
+
+ What I Learned
+Through this project, I strengthened my ability to:
+* Implement mobile-first responsive design principles.
+* Use CSS to create professional, visually appealing product showcases.
+* Structure HTML documents using semantic tags for better accessibility and SEO.
